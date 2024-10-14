@@ -194,7 +194,7 @@ class Actor(object):
 
         # Greedy Algorithm
         if np.random.uniform() < Epsilon:
-            action = m.sample() # Sampling from a distribution
+            action = m.sample() # Sampling from distribution
             action = torch.LongTensor(action).squeeze() 
         
         # Random Strategy
