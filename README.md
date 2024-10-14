@@ -7,6 +7,6 @@ This code is about using reinforcement learning to automate radiation therapy pl
 
 ## Train Model
 ```python
-python main.py
+python train.py
 ```
 
